@@ -76,7 +76,7 @@ function Login() {
                     type="text"
                     value={inputValueUsername}
                     onChange={handleInputChangeUsername}
-                    placeholder="Usuário"
+                    placeholder="Email"
                     name='username'
                     required
                     disabled={loading}

@@ -1,0 +1,78 @@
+/* Estilo básico para a página de relatório, similar ao seu tema */
+.report-container {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+.report-title {
+    text-align: center;
+    color: #e0e0e0;
+    margin-bottom: 2rem;
+}
+
+.report-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.report-card {
+    background-color: #0e325b; /* Um roxo um pouco mais claro */
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.report-card.full-width {
+    grid-column: 1 / -1; /* Faz o card ocupar a largura total */
+}
+
+.report-card h3 {
+    color: #05c6e1; /* Um roxo mais claro para destaque */
+    margin-top: 0;
+    border-bottom: 1px solid #0986b2;
+    padding-bottom: 0.5rem;
+}
+
+.report-card p {
+    line-height: 1.6;
+    margin-bottom: 0.5rem;
+}
+
+.report-card p strong {
+    color: #05c6e1;
+}
+
+.ai-section {
+    background-color: #0986b2;
+}
+
+.back-button,
+.report-container-error a {
+    display: block;
+    width: fit-content;
+    margin: 2rem auto 0;
+    padding: 0.75rem 1.5rem;
+    background-color: var(--cor-primaria); /* Cor do botão "Sair" */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.back-button:hover,
+.report-container-error a:hover {
+    background-color: var(--cor-destaque);
+}
+
+/* Página de Erro */
+.report-container-error {
+    text-align: center;
+    color: #fff;
+    padding-top: 5rem;
+}

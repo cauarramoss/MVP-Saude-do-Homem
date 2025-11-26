@@ -1,0 +1,9 @@
+langchain-core==0.3.0
+requests
+fastapi
+uvicorn
+pydantic
+numpy==2.1.2
+pandas
+reportlab
+pytest

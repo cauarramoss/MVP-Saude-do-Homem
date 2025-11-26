@@ -1,0 +1,32 @@
+:root {
+    /* --- PALETA NOVA (Fresh Health / Clean) --- */
+
+    /* Fundo Principal (#effde8 - Off-white Menta) */
+    --cor-fundo: #0c5483;
+
+    /* Cards e Elementos Secundários */
+    --cor-card-bg: #ffffff;
+    --cor-card-border: #0986b2;
+
+    /* Botões e Títulos Principais (#748bdc - Azul Arroxeado) */
+    --cor-primaria: #0986b2;
+
+    /* Hover e Links (#3faee4 - Azul Ciano) */
+    --cor-destaque: #05c6e1;
+
+    /* Texto Principal (Cinza Escuro para leitura no fundo claro) */
+    --cor-texto: #8d8585;
+
+    /* Texto Secundário / Detalhes (#72d0dc) */
+    --cor-secundaria: #6e6d6d;
+
+    /* Texto dentro de botões (Branco) */
+    --cor-texto-invertido: #ffffff;
+}
+
+body {
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}

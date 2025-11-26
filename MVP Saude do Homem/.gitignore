@@ -40,3 +40,6 @@ env/
 
 *.mp4
 *.mov
+
+--- Ignorar Bancos de Dados Locais ---
+*.sqlite

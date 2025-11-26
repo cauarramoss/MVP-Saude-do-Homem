@@ -129,4 +129,4 @@ A lista será instantaneamente ordenada por idade, processada pelo microserviço
 
 Este projeto foi desenvolvido para fins acadêmicos.
 
-Desenvolvido por: [Seu Nome Aqui]
+Desenvolvido por: Cauã Ramos, Vinicius Ferreira e Leon Mendonça.
